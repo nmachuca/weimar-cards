@@ -4,6 +4,6 @@ import vitePluginRequire from "vite-plugin-require";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://nmachuca.github.io/weimar-cards/", 
+  base: "/weimar-cards/", 
   plugins: [react(), vitePluginRequire.default()]  
 })
