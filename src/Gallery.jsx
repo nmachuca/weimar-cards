@@ -42,7 +42,7 @@ export const Gallery = () => {
             return (
               <li className={"set__item" + (category.name == selectedSet ? " active": "")} key={index} onClick={(evt) => toggleSet(evt.currentTarget.dataset.value)} data-value={category.name}> 
                 <img
-                  src={`/src/assets/cards/${category.name}/token.png`}
+                  src={`/weimar-cards/cards/${category.name}/token.png`}
                   alt={`token_${category.name}`}
                   className="set__token"                  
                 />
